@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyBio</string>
+    <string-array name="jk">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
