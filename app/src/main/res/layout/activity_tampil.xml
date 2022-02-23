@@ -16,39 +16,46 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold"
         android:text="My Biodata" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Nama" />
+        android:textSize="18sp"
+        android:text="Nama :" />
 
     <TextView
         android:id="@+id/outNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Kelas" />
+        android:textSize="18sp"
+        android:text="Kelas :" />
 
     <TextView
         android:id="@+id/outKelas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="TTL" />
+        android:textSize="18sp"
+        android:text="TTL :" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,60 +67,68 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginStart="@dimen/activity_horizontal_margin" />
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/space"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_vertical_margin" />
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/outTTL2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_vertical_margin" />
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textSize="18sp"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Jenis kelamin" />
+        android:textSize="18sp"
+        android:text="Jenis kelamin :" />
 
     <TextView
         android:id="@+id/outJK"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Alamat" />
+        android:textSize="18sp"
+        android:text="Alamat :" />
 
     <TextView
         android:id="@+id/outAlamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:gravity="center_horizontal"
-        android:text="Hobi" />
+        android:textSize="18sp"
+        android:text="Hobi :" />
 
     <TextView
         android:id="@+id/outHobi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin" />
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"/>
 
 
 </LinearLayout>
