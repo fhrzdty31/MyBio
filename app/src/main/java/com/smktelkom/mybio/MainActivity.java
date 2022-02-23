@@ -45,6 +45,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button btnTampil = findViewById(R.id.button);
         btnTampil.setOnClickListener(this);
+
+        Button btnHapus = (Button) findViewById(R.id.button2);
+        btnHapus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setNama.setText("");
+                setKelas.setText("");
+                setTempatLahir.setText("");
+                setTanggalLahir.setText("");
+                setAlamat.setText("");
+                setHobi.setText("");
+            }
+        });
     }
 
     private void showDateDialog() {
