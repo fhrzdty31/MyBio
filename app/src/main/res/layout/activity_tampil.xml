@@ -18,14 +18,16 @@
         android:gravity="center_horizontal"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:text="My Biodata" />
+        android:text="My Biodata"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="Nama :" />
+        android:text="Nama :"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/outNama"
@@ -40,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="Kelas :" />
+        android:text="Kelas :"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/outKelas"
@@ -55,7 +58,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="TTL :" />
+        android:text="TTL :"
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -90,7 +94,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="Jenis kelamin :" />
+        android:text="Jenis kelamin :"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/outJK"
@@ -105,7 +110,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="Alamat :" />
+        android:text="Alamat :"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/outAlamat"
@@ -120,7 +126,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:textSize="18sp"
-        android:text="Hobi :" />
+        android:text="Hobi :"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/outHobi"
